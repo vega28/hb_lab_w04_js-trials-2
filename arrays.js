@@ -2,9 +2,23 @@
 
 
 // 1. printIndices
+// Print each item and its corresponding index
+// 
+// Ex.:
+//   > printIndices(['apple', 'berry', 'cherry'])
+//   apple 0
+//   berry 1
+//   cherry 2
 function printIndices(items) {
-  // Replace this with your code
+  for (const i in items) {
+    console.log(`${items[i]} ${i}`);
+  }
 }
+
+
+
+// for i in range(len(items)):
+//  print(f'{items[i]} {i}')
 
 
 // 2. everyOtherItem
