@@ -15,16 +15,33 @@ function printIndices(items) {
   }
 }
 
+// 2. everyOtherItem
+// const items = [66, 77, 1010, 12]
+// [66, 1010]
 
+function everyOtherItem(items) {
+  let result = []
+
+  for (const i in items.length) {
+    console.log(i)
+    if (i % 2 === 0);
+      console.log(`HELLO FROM THE IF BLOCK`)
+      result.push(items[i])
+  }
+
+  console.log(result)
+
+  // return console.log(result)
+}
+
+// result = []
 
 // for i in range(len(items)):
-//  print(f'{items[i]} {i}')
+//     if i % 2 == 0:
+//         result.append(items[i])
 
+// print(result)
 
-// 2. everyOtherItem
-function everyOtherItem(items) {
-  // Replace this with your code
-}
 
 
 // 3. smallestNItems
